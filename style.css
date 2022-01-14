@@ -1,7 +1,12 @@
-/* google font importing */
+/*----------------------------
+    google font importing 
+ -----------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 
+/*--------------------------------
+    apply for my whole webpage  
+----------------------------------*/
 body{
     margin: 0;
     padding: 0;
@@ -9,7 +14,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
+
+/*-------------------------- 
+        heading part 
+ --------------------------*/
+
+/* nav bar */
+.nav-container{
     padding: 50px 100px 0 100px;
 }
 
@@ -18,8 +29,6 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
-
-
 
 .navbar .nav-items{
     float: right;
@@ -32,12 +41,12 @@ body{
     font-size: 20px;
 }
 
-.container>ul>li>a{
+.nav-container>ul>li>a{
     text-decoration: none;
     color: #242B2E;
 }
 
-.container>ul>li>a:hover{
+.nav-container>ul>li>a:hover{
     color: #FD297A;
 }
 
@@ -46,6 +55,11 @@ body{
     display: block;
     clear: both;
 }
+
+
+/*--------------------
+    upper section  
+---------------------*/
 
 .upper-part{
     display: flex;
@@ -91,6 +105,11 @@ body{
     font-weight: 800;
 }
 
+
+/*------------------------ 
+    web sponsor's logo  
+-------------------------*/
+
 .website-sponsors{
     border: 2px solid rgba(128, 128, 128, 0.171);
     border-left-style: none;
@@ -98,9 +117,8 @@ body{
     margin: 30px 100px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    padding: 30px 100px;
+    padding: 20px 100px;
 }
-
 
 .website-sponsors img{
     width: 100px;
