@@ -126,8 +126,6 @@ body{
 }
 
 
-
-
 .card-container{
     padding: 50px 100px 0 100px;
 }
@@ -195,9 +193,100 @@ body{
 
 }
 
-.card-detail .card-author{
+.card-detail .prices{
     color: #242B2E;
     font-size: 28px;
     margin-top: -15px;
 }
+
+.bottom-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-btn .link-btn{
+    text-decoration: none;
+    color: #FD297A;
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.contact-part{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+    padding: 50px 100px 0 100px;
+}
+
+.contact-part .img-part{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.contact-part .img-part img{
+    width: 500px;
+    height: 400px;
+}
+
+.contact-part .contact-form{
+    width: 50%;
+    padding-left: 150px;
+}
+
+.contact-part .contact-form input,textarea{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.contact-part .contact-form input{
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: #CAD5E2;
+    border: 2px groove rgba(128, 128, 128, 0.123);
+    margin-bottom: 20px;
+}
+
+.contact-part .contact-form textarea{
+    width: 500px;
+    border-radius: 5px;
+    background-color: #CAD5E2;
+    border: 2px groove rgba(128, 128, 128, 0.123);
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 30px 0;
+    background-color: #120E43;
+    text-align: center;
+    color: seashell;
+}
+
+footer .footer-head{
+    font-size: 25px;
+}
+
+.footer-links>a{
+    color: seashell;
+    font-size: 35px;
+    margin: 0px 10px;
+}
+
+.footer-links>a:hover{
+    color: #FD297A;
+}
+
+
+
+
+
+
+
+
+
 
