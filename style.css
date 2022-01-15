@@ -7,6 +7,7 @@
 /*--------------------------------
     apply for my whole webpage  
 ----------------------------------*/
+
 body{
     margin: 0;
     padding: 0;
@@ -126,6 +127,10 @@ body{
 }
 
 
+/*-----------------------------------
+    product card decoration here  
+------------------------------------*/
+
 .card-container{
     padding: 50px 100px 0 100px;
 }
@@ -214,6 +219,11 @@ body{
     font-weight: 700;
 }
 
+
+/*--------------------------------- 
+    contact page decoration here  
+----------------------------------*/
+
 .contact-part{
     display: flex;
     margin-top: 80px;
@@ -251,6 +261,7 @@ body{
     margin-bottom: 20px;
 }
 
+/* special decoration for textarea on my contact part  */
 .contact-part .contact-form textarea{
     width: 500px;
     border-radius: 5px;
@@ -258,6 +269,11 @@ body{
     border: 2px groove rgba(128, 128, 128, 0.123);
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/*------------------------------
+     footer decoration here  
+------------------------------*/
 
 footer{
     margin-top: 50px;
@@ -282,6 +298,89 @@ footer .footer-head{
 }
 
 
+/*----------------------
+    make responsive 
+----------------------*/
+
+
+/* for mobile devices */
+@media only screen and (max-width:688px) {
+    .logo{
+        display: block;
+        text-align: center;
+    }
+
+    .navbar .nav-items{
+        display: none;
+    }
+    .upper-part{
+        padding: 30px;
+        flex-direction: column;
+    }
+    .upper-part .details{
+        width: 100%;
+    }
+    .upper-part .details .btn{
+        margin-left: 40px;
+    }
+
+    .upper-part .details h1{
+        font-size: 30px;
+        text-align: center; 
+    }
+
+    .website-sponsors{
+        display: none;
+    }
+
+    .card-container{
+        margin: 0;
+        padding: 0 10px;
+    }
+    .card-container .cards{
+        padding: 0;
+        margin: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-part{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact-part .img-part{
+        padding: 0;
+        margin: 10px 20px;
+    }
+    .contact-part .contact-form{
+        padding: 0;
+        margin: 20px 40px;
+    }
+
+    .contact-part .img-part img{
+        padding: 0;
+        margin: 0;
+        height: 280px;
+        width: 350px;
+    }
+    .contact-part .contact-form input{
+        height: 50px;
+        width: 300px;
+    }
+
+    .contact-part .contact-form textarea{
+        height: 150px;
+        width: 300px;
+    }
+
+}
+
+/* for tablets */
 
 
 
