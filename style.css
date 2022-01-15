@@ -194,10 +194,6 @@ body{
     color: #AEAEAE;
 } 
 
-.card-duration{
-
-}
-
 .card-detail .prices{
     color: #242B2E;
     font-size: 28px;
@@ -239,6 +235,7 @@ body{
 .contact-part .img-part img{
     width: 500px;
     height: 400px;
+    border-radius: 10px;
 }
 
 .contact-part .contact-form{
@@ -313,20 +310,34 @@ footer .footer-head{
     .navbar .nav-items{
         display: none;
     }
+
     .upper-part{
         padding: 30px;
         flex-direction: column;
     }
+
     .upper-part .details{
         width: 100%;
     }
+
     .upper-part .details .btn{
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .upper-part .details h1{
         font-size: 30px;
         text-align: center; 
+    }
+
+    .main-img{
+        border: none;
+        margin: 50px 30px 0 30px;
+        padding: 50px 0 50px 20px;
+    }
+
+    .main-img img{
+        height: 200px;
+        width: 250px;
     }
 
     .website-sponsors{
@@ -357,6 +368,7 @@ footer .footer-head{
         padding: 0;
         margin: 10px 20px;
     }
+
     .contact-part .contact-form{
         padding: 0;
         margin: 20px 40px;
@@ -423,7 +435,8 @@ footer .footer-head{
     }
 
     .upper-part .details .btn{
-        margin: 20px 300px auto;
+        width: 160px;
+        margin: 20px 270px auto;
     }
 
     .upper-part .details h1{
@@ -438,6 +451,18 @@ footer .footer-head{
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 50px;
     }
+
+    .main-img{
+        border: none;
+        margin: 50px 30px 0 80px;
+        padding: 50px 0 50px 50px;
+    }
+
+    .main-img img{
+        height: 300px;
+        width: 450px;
+    }
+
     .card-container{
         margin: 50px 0 0 0;
         padding: 0 30px;
