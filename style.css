@@ -368,23 +368,124 @@ footer .footer-head{
         height: 280px;
         width: 350px;
     }
+
     .contact-part .contact-form input{
         height: 50px;
         width: 300px;
+        font-size: 17px;
     }
 
     .contact-part .contact-form textarea{
         height: 150px;
         width: 300px;
+        font-size: 17px;
+    }
+
+    footer .footer-head{
+        font-size: 22px;
+    }
+
+    .footer-detail{
+        font-size: 15px
+    }
+    
+    .footer-links>a{
+        color: seashell;
+        font-size: 25px;
+        margin: 0px 5px;
     }
 
 }
 
 /* for tablets */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .logo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
 
+    .nav-container>ul>li.side-logo{
+        display: none;
+    }
 
+    .upper-part{
+        padding: 30px;
+        flex-direction: column;
+    }
 
+    .upper-part .details{
+        width: 100%;
+    }
+
+    .upper-part .details .btn{
+        margin: 20px 300px auto;
+    }
+
+    .upper-part .details h1{
+        font-size: 30px;
+        text-align: center; 
+    }
+
+    .website-sponsors{
+        display: grid;
+        margin: 0 30px;
+        padding: 0;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 50px;
+    }
+    .card-container{
+        margin: 50px 0 0 0;
+        padding: 0 30px;
+    }
+    .card-container .cards{
+        padding: 0;
+        margin: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-part{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .contact-part .img-part{
+        padding: 0;
+        margin: 10px 20px;
+    }
+    .contact-part .contact-form{
+        padding: 20px 80px;
+        margin: 20px 40px;
+    }
+
+    .contact-part .img-part img{
+        padding: 20px 80px;
+        margin: 0;
+        height: 400px;
+        width: 600px;
+    }
+
+    .contact-part .contact-form input{
+        height: 40px;
+        width: 550px;
+        font-size: 17px;
+    }
+
+    .contact-part .contact-form textarea{
+        height: 200px;
+        width: 550px;
+        font-size: 17px;
+    }
+
+}
 
 
 
